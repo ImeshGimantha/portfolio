@@ -355,13 +355,23 @@ body {
   color: #2a9d8f;
 }
 
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group input:first-child {
+  margin-right: 20px;
+}
+
 .contact-form input,
 .contact-form textarea {
   width: 100%;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
+  margin-top: 10px;
   border: none;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: #4a4a4a;
   color: #d9d9d9;
   font-family: poppins, sans-serif;
@@ -411,6 +421,7 @@ body {
   font-size: 22px;
   color: #d9d9d9;
   line-height: 1.6;
+  margin-top: 20px;
   margin-bottom: 70px;
 }
 
@@ -429,6 +440,7 @@ body {
 }
 
 .contact-info .details p {
+  margin-top: 0;
   margin-bottom: 1px;
 }
 
@@ -455,17 +467,21 @@ body {
   transition: all 0.3s ease;
 }
 
+.social-links a img {
+  transition: all 0.3s ease;
+}
+
 .social-links a:hover {
-  background-color: #2a9d8f;
-  color: #333333;
+  transform: scale(1.1);
 }
 
 /* Footer */
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #333333;
-  color: #888;
-  font-size: 14px;
+  background-color: #262626;
+  color: #2a9d8f;
+  font-size: 18px;
   margin-top: 40px;
+  font-weight: bold;
 }
